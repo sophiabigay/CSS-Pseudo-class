@@ -1,0 +1,45 @@
+button {
+    transition: background-color 0.3s ease, font-size 0.3s ease, color 0.3s ease;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #B47B84; 
+    color: white; 
+}
+button:hover {
+    background-color: #643843; 
+}
+button:active {
+    font-size: 1.3em; 
+    color: #ffdd57; 
+    background-color: #0a9396; 
+}
+input[type="text"] {
+    transition: border-color 0.3s ease, color 0.3s ease;
+    padding: 5px;
+    border: 2px solid #ccc; 
+    border-radius: 4px;
+}
+input[type="text"]:focus {
+    border-color: #B8621B; 
+}
+input[type="text"]::placeholder {
+    transition: color 0.3s ease;
+}
+input[type="text"]:focus::placeholder {
+    color: #3E3232; 
+}
+a {
+    transition: color 0.3s ease, text-decoration 0.3s ease, font-weight 0.3s ease;
+    text-decoration: none; 
+    color: #0066cc; 
+}
+a:hover {
+    color: #ff6347; 
+    text-decoration: underline; 
+}
+a:active {
+    font-weight: bold; 
+    color: #b22222; 
+}
